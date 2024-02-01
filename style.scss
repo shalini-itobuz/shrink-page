@@ -1,3 +1,9 @@
+$color_1: #ffffff;
+$font-family_1: "Roboto Serif";
+$font-family_2: Poppins;
+$background-color_1: #c0304f;
+$background-color_2: #ffe6e0;
+
 * {
   padding: 0;
   margin: 0;
@@ -8,13 +14,12 @@
   background: #fff;
 }
 .bg-magenta {
-  background-color: #c0304f;
+  background-color: $background-color_1;
 }
 .text-grey {
-  color: #ffffff;
+  color: $color_1;
   opacity: 0.5;
 }
-
 .hero {
   width: 80%;
   margin: 0 auto;
@@ -22,7 +27,9 @@
 .house {
   width: 99%;
 }
-.book,
+.book {
+  width: 50%;
+}
 .pen {
   width: 50%;
 }
@@ -30,25 +37,26 @@
   width: 80%;
 }
 .ministers {
-  font-family: "Roboto Serif";
+  font-family: $font-family_1;
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
+  border-left: 5px solid #c0304f;
+  width: 100%;
 }
 .minister-paragraph {
-  font-family: Poppins;
+  font-family: $font-family_2;
   font-size: 8px;
   font-style: normal;
   font-weight: 400;
 }
-
 .card-business {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: #ffe6e0;
+  background-color: $background-color_2;
   border-radius: 65px 65px 65px 0px;
 }
 .ministry-icons {
@@ -57,12 +65,10 @@
 .shrine-events-heading {
   width: 80%;
 }
-.shrine-events,
-.ministers {
+.shrine-events {
   border-left: 5px solid #c0304f;
   width: 100%;
 }
-
 .bg-box {
   background-image: url(./images/shrine-events/background.png);
   width: 11%;
@@ -86,24 +92,26 @@
 li {
   list-style-type: none;
 }
-.quick-links,
-.company,
+.quick-links {
+  width: 100%;
+}
+.company {
+  width: 100%;
+}
 .support {
   width: 100%;
 }
 .newsletter {
   width: 100%;
 }
-
 hr {
   width: 100%;
-  height: 20px;
+  height: 2px;
   background: #ffff;
 }
 .footer-background {
   background: url(./images/footer/footer-background.png) center no-repeat;
 }
-
 @media (min-width: 320px) {
   .hero {
     width: 80%;
@@ -112,7 +120,9 @@ hr {
   .house {
     width: 100%;
   }
-  .book,
+  .book {
+    width: 100%;
+  }
   .pen {
     width: 100%;
   }
@@ -147,8 +157,12 @@ hr {
   .shrine-logo-description {
     width: 47%;
   }
-  .quick-links,
-  .company,
+  .quick-links {
+    width: 20%;
+  }
+  .company {
+    width: 20%;
+  }
   .support {
     width: 20%;
   }
@@ -156,7 +170,6 @@ hr {
     text-align: left !important;
   }
 }
-
 @media (min-width: 1024px) {
   .hero-right-images {
     width: 34%;
