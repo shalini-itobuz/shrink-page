@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-logo {
+  translate: 0% 30%;
+  background: #fff;
+}
+.bg-magenta {
+  background-color: #c0304f;
+}
+.text-grey {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.hero {
+  width: 80%;
+  margin: 0 auto;
+}
+.house {
+  width: 99%;
+}
+.book,
+.pen {
+  width: 50%;
+}
+.ministers-section {
+  width: 80%;
+}
+.ministers {
+  font-family: "Roboto Serif";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+}
+.minister-paragraph {
+  font-family: Poppins;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.card-business {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #ffe6e0;
+  border-radius: 65px 65px 65px 0px;
+}
+.ministry-icons {
+  width: 40%;
+}
+.shrine-events-heading {
+  width: 80%;
+}
+.shrine-events,
+.ministers {
+  border-left: 5px solid #c0304f;
+  width: 100%;
+}
+
+.bg-box {
+  background-image: url(./images/shrine-events/background.png);
+  width: 11%;
+}
+.clock {
+  width: 25px;
+}
+.location {
+  width: 15px;
+}
+.calender {
+  top: 23%;
+  left: 10%;
+}
+.footer {
+  width: 80%;
+}
+.shrine-logo-description {
+  width: 100%;
+}
+li {
+  list-style-type: none;
+}
+.quick-links,
+.company,
+.support {
+  width: 100%;
+}
+.newsletter {
+  width: 100%;
+}
+
+hr {
+  width: 100%;
+  height: 20px;
+  background: #ffff;
+}
+.footer-background {
+  background: url(./images/footer/footer-background.png) center no-repeat;
+}
+
+@media (min-width: 320px) {
+  .hero {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .house {
+    width: 100%;
+  }
+  .book,
+  .pen {
+    width: 100%;
+  }
+  .hero-right-images {
+    width: 47%;
+  }
+  .ministers {
+    font-size: 30px;
+  }
+  .minister-paragraph {
+    font-size: 16px;
+  }
+  .shrine-paragraph {
+    width: 100%;
+  }
+  .calender {
+    top: 23%;
+    left: 10%;
+  }
+}
+@media (min-width: 768px) {
+  .hero-right-images {
+    width: 44%;
+  }
+  .shrine-paragraph {
+    width: 50%;
+  }
+  .calender {
+    top: 27%;
+    left: 10%;
+  }
+  .shrine-logo-description {
+    width: 47%;
+  }
+  .quick-links,
+  .company,
+  .support {
+    width: 20%;
+  }
+  .about-company {
+    text-align: left !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-right-images {
+    width: 34%;
+  }
+  .calender {
+    top: 23%;
+    left: 10%;
+  }
+}
+@media (min-width: 1440px) {
+  .hero-right-images {
+    width: 24%;
+  }
+  .calender {
+    top: 34.5%;
+    left: 10%;
+  }
+}
