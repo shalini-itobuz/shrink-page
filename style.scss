@@ -9,10 +9,19 @@ $background-color_2: #ffe6e0;
   margin: 0;
   box-sizing: border-box;
 }
+.arrow,
+.social {
+  cursor: pointer;
+}
 .navbar-logo {
   translate: 0% 30%;
   background: #fff;
 }
+.breadcrump-part {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .bg-magenta {
   background-color: $background-color_1;
 }
@@ -169,6 +178,10 @@ hr {
   .about-company {
     text-align: left !important;
   }
+  .breadcrump-part {
+    margin: unset;
+    padding-left: 40%;
+  }
 }
 @media (min-width: 1024px) {
   .hero-right-images {
@@ -186,5 +199,9 @@ hr {
   .calender {
     top: 34.5%;
     left: 10%;
+  }
+  .breadcrump-part {
+    margin: unset;
+    padding-left: 43%;
   }
 }
